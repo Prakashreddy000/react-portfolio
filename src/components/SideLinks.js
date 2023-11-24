@@ -3,6 +3,7 @@ import { FaGithub , FaLinkedin } from "react-icons/fa";
 import { HiOutlineMail } from "react-icons/hi";
 import { BsFillPersonFill } from "react-icons/bs";
 
+
 const SideLinks = () => {
     const links=[
         {
@@ -12,7 +13,7 @@ const SideLinks = () => {
                     Github<FaGithub size={30}/>
                     </>
                 ),
-                href:"https://github.com/",
+                href:"https://github.com/Prakashreddy000",
            
         },
         {
@@ -22,7 +23,7 @@ const SideLinks = () => {
                 Linkedin<FaLinkedin size={30}/>
                 </>
             ),
-            href:"www.linkedin.com",
+            href:"https://www.linkedin.com/in/sai-prakash-munigala-474190261/",
            
     },
     {
@@ -42,7 +43,7 @@ const SideLinks = () => {
        Resume<BsFillPersonFill size={30}/>
         </>
     ),
-    href:"www.github.com",
+    href:'/resume.pdf.png',
     download:true,
     
 },
